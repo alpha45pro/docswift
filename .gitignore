@@ -2,8 +2,10 @@ node_modules/
 .env
 .env.example
 .DS_Store
+dist/
 _dist/
 build/
 coverage/
 *.log
 *.tmp
+.vite/
