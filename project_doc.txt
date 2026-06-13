@@ -1,0 +1,690 @@
+SmartDocs AI
+
+Complete Website Project Documentation
+
+AI-Powered Document Converter and Editor
+
+Project Type
+
+Website / Web Application
+
+Prepared For
+
+Codex Implementation and College Project Submission
+
+Prepared By
+
+Vasu Jain
+
+Technology Focus
+
+React.js, Node.js/Express.js, AI API, Vercel/Render
+
+Database
+
+Not required for MVP
+
+
+
+Documents Included: Project Proposal, SRS, PRD, HLD, LLD, Test Plan
+
+
+
+Document Index
+
+Project Proposal
+
+SRS — Software Requirement Specification
+
+PRD — Product Requirement Document
+
+HLD — High Level Design
+
+LLD — Low Level Design
+
+Test Plan Document
+
+1. Project Proposal
+
+1.1 Project Title
+
+SmartDocs AI — AI-Powered Document Converter and Editor
+
+1.2 Introduction
+
+SmartDocs AI is a web-based platform that helps users convert, edit, summarize, and improve documents using artificial intelligence. The website is designed for students, teachers, freelancers, researchers, and office users who regularly work with PDFs, images, text files, resumes, reports, and academic documents.
+
+1.3 Problem Statement
+
+Many users need multiple websites for PDF conversion, text extraction, grammar correction, summarization, rewriting, and document editing. Most tools are paid, limited, difficult to use, or require login. This creates inconvenience and wastes time. SmartDocs AI solves this problem by providing multiple AI-powered document tools in one website.
+
+1.4 Objectives
+
+Create a simple and fast AI document utility website.
+
+Allow users to summarize, rewrite, and improve content easily.
+
+Provide document-related tools without requiring a database in the MVP.
+
+Make the website responsive and easy to use on mobile and desktop.
+
+Prepare the project for public deployment on platforms such as Vercel or Render.
+
+1.5 Scope
+
+PDF to text conversion
+
+Image to text extraction using OCR
+
+AI text summarization
+
+AI grammar correction
+
+AI content rewriting
+
+Project report and document generation
+
+Downloadable output
+
+1.6 Target Users
+
+Students
+
+Teachers
+
+Researchers
+
+Freelancers
+
+Content writers
+
+Office employees
+
+Job seekers
+
+1.7 Expected Outcome
+
+The expected outcome is a fully functional AI document converter and editor website that can be deployed publicly, demonstrated in college, and used as a portfolio project.
+
+1.8 Future Scope
+
+User login system
+
+Cloud file storage
+
+PDF editor
+
+Plagiarism checker
+
+Multiple language support
+
+Voice-to-text converter
+
+Advertisement integration
+
+Premium subscription features
+
+2. SRS — Software Requirement Specification
+
+2.1 Purpose
+
+This SRS defines the functional and non-functional requirements of SmartDocs AI. The purpose of the software is to help users convert, extract, summarize, rewrite, and improve document content using AI.
+
+2.2 Product Perspective
+
+The system will work as an independent web application. It will not require a database in the initial version. Processing will happen through frontend utilities, backend APIs, file processing modules, and AI API integration.
+
+2.3 User Classes
+
+Normal User: Uploads files, enters text, uses AI tools, and downloads output.
+
+Developer/Admin: Maintains APIs, improves UI, manages deployment, and updates AI prompts.
+
+2.4 Functional Requirements
+
+ID
+
+Requirement
+
+Description
+
+FR1
+
+File Upload
+
+The system shall allow users to upload PDF, image, text, and notebook files.
+
+FR2
+
+Text Extraction
+
+The system shall extract text from uploaded documents or images.
+
+FR3
+
+AI Summarization
+
+The system shall summarize long text into short and clear points.
+
+FR4
+
+Grammar Improvement
+
+The system shall improve grammar, spelling, and sentence clarity.
+
+FR5
+
+Content Rewriting
+
+The system shall rewrite content in simple, formal, professional, or humanized tone.
+
+FR6
+
+Report Generation
+
+The system shall generate project reports, proposals, and document drafts using AI.
+
+FR7
+
+Output Download
+
+The system shall allow users to copy or download generated output.
+
+FR8
+
+Error Handling
+
+The system shall show proper error messages if upload or processing fails.
+
+2.5 Non-Functional Requirements
+
+Performance: The website should respond quickly for normal text and file sizes.
+
+Usability: The UI should be clean, simple, and mobile-friendly.
+
+Security: Uploaded files should not be permanently stored in the MVP.
+
+Reliability: The system should handle invalid files and API failures safely.
+
+Scalability: The project should support future login, storage, and payment features.
+
+2.6 Software Requirements
+
+Modern browser such as Chrome, Edge, Safari, or Firefox
+
+Node.js or Python environment
+
+VS Code
+
+Git and GitHub
+
+AI API key
+
+Deployment platform such as Vercel, Netlify, Render, or Railway
+
+2.7 Constraints and Assumptions
+
+Users must have internet access.
+
+AI response depends on API availability.
+
+File size limits will be applied.
+
+No database will be used in the first version.
+
+Large files may take more processing time.
+
+3. PRD — Product Requirement Document
+
+3.1 Product Vision
+
+To build a simple and powerful AI-based document tool that helps users save time while converting, editing, and improving documents.
+
+3.2 Product Goal
+
+The goal is to create a public website where users can perform document-related tasks without needing multiple tools or complex setup.
+
+3.3 User Problems
+
+Users need different websites for different document tasks.
+
+Many tools are paid or restricted.
+
+Some tools have poor user interfaces.
+
+Summarization and rewriting quality is often poor.
+
+Formatting reports and documents takes time.
+
+3.4 Product Solution
+
+SmartDocs AI will provide document conversion, text extraction, summarization, rewriting, grammar improvement, and project report generation in one website.
+
+3.5 Main Product Features
+
+Document Converter: Converts or extracts text from documents.
+
+AI Summarizer: Converts long content into short summaries.
+
+AI Rewriter: Rewrites text in simple, formal, professional, or humanized style.
+
+Grammar Fixer: Corrects grammar and improves readability.
+
+Project Report Generator: Generates proposal, SRS, PRD, HLD, LLD, and test plan drafts.
+
+Download Output: Allows users to copy or download generated content.
+
+3.6 User Flow
+
+User opens the website.
+
+User selects a tool.
+
+User uploads a file or enters text.
+
+System processes the input.
+
+AI generates output.
+
+User copies or downloads the result.
+
+3.7 MVP Features
+
+Home page
+
+Text input
+
+File upload
+
+Summarizer
+
+Rewriter
+
+Grammar fixer
+
+Project report generator
+
+Copy and download output buttons
+
+3.8 Success Metrics
+
+Users can complete basic document tasks without login.
+
+Website loads quickly.
+
+Output is understandable and useful.
+
+Project can be deployed publicly.
+
+Features are easy to demonstrate during viva or interview.
+
+4. HLD — High Level Design
+
+4.1 Architecture Overview
+
+SmartDocs AI follows a simple client-server architecture. The frontend collects user input, the backend processes the request, the AI service generates output, and the final result is displayed to the user.
+
+4.2 Main Components
+
+Frontend Web App
+
+Backend API Server
+
+AI API Service
+
+File Processing Module
+
+Output Module
+
+4.3 High Level Architecture Diagram
+
+User | vFrontend Web App | vBackend API Server | +--> File Processing Module | +--> AI API Service | vProcessed Output | vUser Copies or Downloads Result
+
+4.4 Frontend Design
+
+Home page
+
+Tool cards
+
+Upload section
+
+Text input area
+
+Output preview
+
+Copy and download buttons
+
+Responsive layout
+
+4.5 Backend Design
+
+Handle file upload requests
+
+Validate file type and size
+
+Extract text from files
+
+Send prompts to AI API
+
+Format responses
+
+Handle errors safely
+
+4.6 API Endpoints
+
+Endpoint
+
+Purpose
+
+POST /api/extract-text
+
+Extracts text from uploaded file.
+
+POST /api/summarize
+
+Generates summary from input text.
+
+POST /api/rewrite
+
+Rewrites text based on selected tone.
+
+POST /api/grammar-fix
+
+Improves grammar and readability.
+
+POST /api/generate-report
+
+Generates project documentation content.
+
+4.7 Deployment Design
+
+The frontend can be deployed on Vercel or Netlify. The backend can be deployed on Render, Railway, or Vercel serverless functions. API keys will be stored in environment variables.
+
+4.8 Security Design
+
+Validate file type
+
+Limit file size
+
+Do not permanently store uploaded files
+
+Hide API keys using environment variables
+
+Handle API errors safely
+
+5. LLD — Low Level Design
+
+5.1 Frontend Components
+
+Component
+
+Purpose
+
+App Component
+
+Controls routing and main layout.
+
+Navbar Component
+
+Displays logo and navigation links.
+
+ToolCard Component
+
+Displays tools such as Summarizer, Rewriter, Grammar Fixer, and Converter.
+
+FileUpload Component
+
+Allows users to select and upload files.
+
+TextEditor Component
+
+Allows users to paste or edit text.
+
+OutputBox Component
+
+Shows AI-generated output.
+
+DownloadButton Component
+
+Allows users to download final output.
+
+5.2 Backend Modules
+
+uploadController: Handles file upload and validation.
+
+extractController: Extracts text from PDF, image, or text file.
+
+aiController: Handles summarization, rewriting, grammar fixing, and report generation.
+
+downloadController: Creates downloadable output.
+
+errorHandler: Handles backend errors and sends safe error responses.
+
+5.3 Data Flow
+
+User Input/File  -> Frontend Validation  -> Backend API Request  -> File Processing / AI Processing  -> API Response  -> Output Display  -> Copy or Download
+
+5.4 Function Design
+
+validateFile(file): Checks file type and size.
+
+extractText(file): Extracts text based on file type.
+
+generateSummary(text): Sends summarization prompt to AI API.
+
+rewriteText(text, tone): Rewrites content based on selected tone.
+
+fixGrammar(text): Corrects grammar and improves clarity.
+
+generateReport(topic): Generates project documentation draft.
+
+downloadText(output): Creates downloadable text file.
+
+5.5 Sample Folder Structure
+
+smartdocs-ai/├── frontend/│   ├── src/│   │   ├── components/│   │   ├── pages/│   │   ├── services/│   │   └── App.jsx│   └── package.json│├── backend/│   ├── controllers/│   ├── routes/│   ├── services/│   ├── utils/│   ├── server.js│   └── package.json│├── README.md└── .env.example
+
+5.6 AI Prompt Structure
+
+Summarizer Prompt: Summarize the following text in simple language with bullet points.
+
+Rewriter Prompt: Rewrite the following text in a clear and human-like tone.
+
+Grammar Prompt: Correct grammar and improve clarity without changing the meaning.
+
+Report Prompt: Generate a professional project document based on the given topic.
+
+5.7 Environment Variables
+
+AI_API_KEY=your_api_key_herePORT=5000MAX_FILE_SIZE=5MB
+
+6. Test Plan Document
+
+6.1 Purpose
+
+The purpose of this test plan is to verify that SmartDocs AI works correctly, handles errors safely, and provides useful AI-generated output.
+
+6.2 Testing Scope
+
+User interface
+
+File upload
+
+Text extraction
+
+AI summarization
+
+AI rewriting
+
+Grammar correction
+
+Output download
+
+Error handling
+
+Responsiveness
+
+6.3 Testing Types
+
+Functional Testing: Checks whether each feature works as expected.
+
+UI Testing: Checks layout, buttons, forms, and responsiveness.
+
+API Testing: Checks backend endpoints and response handling.
+
+Error Testing: Checks invalid input, invalid files, and API failure cases.
+
+Performance Testing: Checks page loading and response speed.
+
+6.4 Test Cases
+
+ID
+
+Feature
+
+Input
+
+Expected Result
+
+Status
+
+TC01
+
+Home Page
+
+Open website
+
+Home page loads successfully
+
+Pending
+
+TC02
+
+File Upload
+
+Upload valid PDF
+
+File uploads successfully
+
+Pending
+
+TC03
+
+File Upload
+
+Upload invalid file
+
+Error message is shown
+
+Pending
+
+TC04
+
+Text Extraction
+
+Upload PDF
+
+Text is extracted
+
+Pending
+
+TC05
+
+Summarizer
+
+Long text
+
+Short summary is generated
+
+Pending
+
+TC06
+
+Rewriter
+
+Normal text + tone
+
+Text is rewritten correctly
+
+Pending
+
+TC07
+
+Grammar Fixer
+
+Text with errors
+
+Corrected text is shown
+
+Pending
+
+TC08
+
+Download
+
+Generated output
+
+Output downloads successfully
+
+Pending
+
+TC09
+
+Empty Input
+
+No text entered
+
+Warning message is shown
+
+Pending
+
+TC10
+
+Mobile View
+
+Open on mobile
+
+Layout remains responsive
+
+Pending
+
+6.5 Entry Criteria
+
+Frontend pages are ready.
+
+Backend APIs are working.
+
+AI API key is configured.
+
+File upload feature is implemented.
+
+6.6 Exit Criteria
+
+All major test cases pass.
+
+No critical bugs remain.
+
+Website works on desktop and mobile.
+
+Output can be copied or downloaded.
+
+6.7 Bug Report Format
+
+Bug ID:Feature:Steps to Reproduce:Expected Result:Actual Result:Severity:Status:
+
+6.8 Risk Areas
+
+AI API downtime
+
+Large file processing
+
+Unsupported file formats
+
+Slow internet connection
+
+Browser compatibility issues
+
+6.9 Conclusion
+
+This test plan ensures that SmartDocs AI is reliable, user-friendly, and ready for academic presentation, portfolio use, or public deployment.
+
